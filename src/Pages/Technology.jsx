@@ -20,6 +20,7 @@ const Technology = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 200)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}
@@ -36,6 +37,7 @@ const Technology = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 200)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}

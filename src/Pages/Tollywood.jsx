@@ -20,6 +20,7 @@ const Tollywood = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 200)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}
@@ -36,6 +37,7 @@ const Tollywood = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 100)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}
@@ -54,6 +56,7 @@ const Tollywood = () => {
               img={ele.imgUrl}
               title={ele.title}
               content={ele.content.slice(0, 100)}
+              fullcontent={ele.fullcontent}
             />
           )
         })}
