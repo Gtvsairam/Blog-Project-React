@@ -8,7 +8,8 @@ const LatestPost = (props) => {
       state={{
         title:props.title,
         img:props.img,
-        content:props.content
+        content:props.content,
+        fullcontent:props.fullcontent
       }}
       to='/blog'
       >

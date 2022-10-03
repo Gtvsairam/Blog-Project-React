@@ -21,6 +21,7 @@ const Fitness = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 200)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}
@@ -37,6 +38,7 @@ const Fitness = () => {
                 img={ele.imgUrl}
                 title={ele.title}
                 content={ele.content.slice(0, 100)}
+                fullcontent={ele.fullcontent}
               />
             )
           })}
